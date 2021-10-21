@@ -1,0 +1,112 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(197, 197, 197);
+	
+}
+.according-list {
+padding: 10px 0px 30px 10px;
+}
+.according-el {
+
+}
+.btn {
+	padding: 10px;
+	border: 1px solid rgb(78, 59, 59);
+}
+.text-panel {
+	padding: 10px;
+	border: 1px solid rgb(56, 48, 48);
+}
+/* password styles */
+
+.password-container {
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+
+	padding: 10px 0px 0px 10px;
+}
+.password-input-wrapper {}
+.input {
+	padding: 10px 50px 10px 84px;
+}
+.password-display-wrapper {
+	display: flex;
+	flex-direction: column;
+	background-color: aliceblue;
+	/* justify-content: ; */
+
+}
+.password-line {
+	/* position: absolute; */
+	transition: 1s linear;
+
+	margin-top:10px;
+	border: 1px solid ;
+	height: 10px;
+	max-width: 300px;
+	background: linear-gradient(90deg, #e5ff00 , red);
+	width: 0%;
+	
+
+	/* background: linear-gradient(90deg, #ff0000,#ffee00, #ffffff 100%); */
+}
+
+.password-percent {
+	text-align: center;
+	/* align-content: center; */
+	/* justify-content: center; */
+	font-size: 30px;
+}
+
+/* text */
+
+.text-inp {
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+	padding: 30px 0px 0px 10px;
+}
+.input-text {
+	padding: 10px 50px 10px 84px;
+}
+.display {
+	background-color: aliceblue;
+	margin-top: 10px;
+	/* border: 2px solid; */
+	height: 100px;
+}
+.display-inner {
+	position: absolute;
+}
+strong {
+	margin: 0px;
+	padding: 0px;
+}
+/* texts */
+
+.texts-inp {
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+	padding: 30px 0px 0px 10px;
+}
+.input-texts {
+	padding: 10px 50px 10px 84px;
+}
+.displays {
+	background-color: aliceblue;
+	margin-top: 10px;
+	/* border: 2px solid; */
+	height: 100px;
+}
+.display-inners {
+	position: absolute;
+}
+strong {
+	margin: 0px;
+	padding: 0px;
+}
